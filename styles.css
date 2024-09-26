@@ -1,0 +1,23 @@
+.con{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 200px 200px 200px 200px;
+    gap:30px;
+}
+.first{
+    grid-column: span 2;
+}
+.card {
+    background-color: rgba(18, 39, 160, 0.479);
+}
+@media(max-width:680px){
+    .first{
+        grid-column: span 2;
+    }
+    .card {
+        background-color: rgba(18, 39, 160, 0.479);
+    }
+    .sec{
+        grid-column: span 2;
+    }
+}

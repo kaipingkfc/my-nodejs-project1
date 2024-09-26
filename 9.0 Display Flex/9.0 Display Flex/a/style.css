@@ -1,0 +1,7 @@
+.grid-container{
+    display: grid;
+    grid-template:100px auto/400px auto;
+}
+.grid-item{
+    background-color: blanchedalmond;
+}
